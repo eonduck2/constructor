@@ -9,16 +9,6 @@ import makeMember from "./work-3.js";
  * NOTE: KDT 멤버들 객체 만들기
  */
 
-// const makeMember = require('./work-3.js');
-// console.log(makeMember(1, "김보미"));
-
-// let arrayMembers = [];
-
-// for(let i = 0; i < names.length; i++) {
-//   let member = makeMember(i, names[i])
-//   arrayMembers.push(member);
-// }
-
 const names = [
   "구하림",
   "김보미",
@@ -42,14 +32,4 @@ const names = [
   "황재민",
 ];
 
-// NOTE: 정답------------
-// console.log(makeMember(names[0], names[1]));
-// NOTE: 정답------------
-
-// const testObj = makeMember(names[0], names[1]);
-const testObj = makeMember(names);
-// names.forEach((name) => {
-//   make;
-// });
-
-console.log(testObj);
+console.log(makeMember(names));
