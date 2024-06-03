@@ -1,6 +1,6 @@
-const workThree = (a, b) => {
-  let local = {};
-  local[a] = a;
-  local[b] = b;
-  return local;
+const workThree = (...a) => {
+  return ({ ...b } = a);
 };
+
+console.log(workThree(`테스트`, `ㅎㅇ`));
+console.log(typeof workThree);
