@@ -34,7 +34,7 @@ class Ramen {
   }
 
   get ramen() {
-    return (this.ramen = ramen);
+    return this.ramen;
   }
 }
 
