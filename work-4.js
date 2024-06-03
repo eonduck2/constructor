@@ -42,4 +42,14 @@ const names = [
   "황재민",
 ];
 
-makeMember(names.forEach((element) => {}));
+// NOTE: 정답------------
+// console.log(makeMember(names[0], names[1]));
+// NOTE: 정답------------
+
+// const testObj = makeMember(names[0], names[1]);
+const testObj = makeMember(names);
+// names.forEach((name) => {
+//   make;
+// });
+
+console.log(testObj);

@@ -1,3 +1,3 @@
-export default (...a) => {
+export default (a) => {
   return Object.assign({}, a);
 };
