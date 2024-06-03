@@ -33,9 +33,7 @@ class Ramen {
     }
   }
 
-  get ramen() {
-    return (this.ramen = ramen);
-  }
+  get ramen() {}
 }
 
 const classTest = new Ramen(`진라면`, `300ml`, `대파`);
