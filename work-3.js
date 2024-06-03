@@ -1,5 +1,5 @@
 const workThree = (...a) => {
-  return ({ ...b } = a);
+  return Object.assign({}, a);
 };
 
 console.log(workThree(`테스트`, `ㅎㅇ`));
